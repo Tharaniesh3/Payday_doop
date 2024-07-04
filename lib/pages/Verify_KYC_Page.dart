@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:payday/constants.dart';
-import 'package:payday/verify_account_page.dart';
+import 'package:payday/pages/verify_account_page.dart';
 
 class VerifyKYCPage extends StatefulWidget {
   @override

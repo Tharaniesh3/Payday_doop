@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:payday/Verify_KYC_Page.dart';
+import 'package:payday/pages/Verify_KYC_Page.dart';
 import 'package:payday/constants.dart';
-import 'package:payday/verify_account_page.dart';
+import 'package:payday/pages/verify_account_page.dart';
 
 class WalletPage extends StatelessWidget {
   @override

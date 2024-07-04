@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:payday/Verify_KYC_Page.dart';
-import 'package:payday/wallet_page.dart';
+import 'package:payday/pages/wallet_page.dart';
 
 
 void main() {
