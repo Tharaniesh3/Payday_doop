@@ -106,7 +106,6 @@ class TileWidgetWithIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Determine the color and icon based on the status
     Color statusColor;
     IconData statusIcon;
 

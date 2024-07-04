@@ -6,10 +6,7 @@ import 'package:payday/pages/verify_account_page.dart';
 class WalletPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // Retrieve screen size
     final Size screenSize = MediaQuery.of(context).size;
-
-    // Define padding based on screen size
     final double horizontalPadding = screenSize.width * 0.04;
     final double verticalPadding = screenSize.height * 0.02;
 
@@ -18,7 +15,6 @@ class WalletPage extends StatelessWidget {
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () {
-            // Handle back button press
           },
         ),
         title: Text('Wallet'),
@@ -127,7 +123,6 @@ class WalletPage extends StatelessWidget {
                     width1: screenSize.width * 0.3,
                     text: 'Add Cash',
                     onPressed: () {
-                      // Handle add cash button press
                     },
                   ),
                 ],
@@ -137,7 +132,6 @@ class WalletPage extends StatelessWidget {
             TileWidget(
               title: 'My Transactions',
               onTap: () {
-                // Handle transactions tap
               },
             ),
             SizedBox(height: screenSize.height * 0.02),
